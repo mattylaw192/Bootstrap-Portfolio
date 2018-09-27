@@ -1,35 +1,64 @@
 
+/*secondary nav */
 
+nav {
+    height:50px;
+}
 .nav {
     position:fixed;
-    height:50px;
+    height:52px;
     top:0px;
     width:100%;
     left:0px;
     max-width:auto;
     background:white;
+    z-index:8;
+    border-bottom:2px solid #cccccc;
+  
+    
+}
+
+.navbar-brand {
+    Position:fixed;
+    top:0px;
+    background:#4aaaa5;
+    Color:white;
+    height:50px;
     z-index:9;
+    
 }
 
 h1 {
-    color:black;
+color:#4aaaa5;
+font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+.ML {
+    Position:relative;
+    top:0px;
+    color:white;
+    background:#4aaaa5;
+    font-family: 'georgia',Times,'Times New Roman',serif;
+    z-index:9;
+    height:45px;
 }
 
-.intro-name-box {
- 
 
-    color:black;
-}
 
 .main-content {
     background:white;
+    box-shadow:2px grey;
+    border:solid 1px;
+    padding:15px;
   
 }
 
+
+
 #headshot {
     float:left;
-    padding:10px;
-   
+    padding:10px 20px 15px 0px;
+   max-width:auto;
     
 }
 
@@ -38,13 +67,20 @@ body {
     position:relative;
     top:5%;
     margin:100px;
-    padding:0px;
+    padding:10px;
     overflow:scroll;
     height:500px;
+    }
+
+
+form{
+    margin:50px;
 }
 
-
-
+.img-fluid {
+width:250px;
+height:250px;
+}
 
 .footer {
     position:fixed;
