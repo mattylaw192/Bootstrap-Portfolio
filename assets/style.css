@@ -1,55 +1,74 @@
 
 /*secondary nav */
 
-nav {
-    height:50px;
-}
 .nav {
     position:fixed;
-    height:52px;
-    top:0px;
-    width:100%;
     left:0px;
-    max-width:auto;
+    top:0px;
+    height:auto;
+    margin: 0 0px 0 0px;
+    font-family: Arial;
+    font-size: 100%;
+    width: 100%;
+    overflow: hidden;
     background:white;
-    z-index:8;
-    border-bottom:2px solid #cccccc;
+    box-shadow:0 0 3px 0 #666666;
+ }
+
+.nav-link {
+    color:#666666;
   
-    
 }
 
-.navbar-brand {
-    Position:fixed;
-    top:0px;
-    background:#4aaaa5;
-    Color:white;
-    height:50px;
-    z-index:9;
-    
+.nav-item {
+    padding:10 0 10 0;
+}
+
+
+.container-fluid {
+    max-width:700px;
 }
 
 h1 {
 color:#4aaaa5;
 font-family: 'Georgia', Times, Times New Roman, serif;
+margin:0px 0px 0px 30px;
+
 
 }
-.ML {
-    Position:relative;
+
+#name {
+    position:relative;
     top:0px;
+    left:0px;
+    right:5%;
+    height:60px;
+    color:#666666;
+    background:#4aaaa5;
+    padding: 0 60px 0 50px;
+    margin: 0 60px 0 40px;
+   
+    
+}
+
+
+.ML-Header {
     color:white;
     background:#4aaaa5;
     font-family: 'georgia',Times,'Times New Roman',serif;
-    z-index:9;
-    height:45px;
+    text-align:center;
+  
+    
+
 }
 
 
 
 .main-content {
     background:white;
-    box-shadow:2px grey;
-    border:solid 1px;
+    box-shadow:1px 1px #c0c0c0;
     padding:15px;
+    Font-Family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   
 }
 
@@ -80,7 +99,34 @@ form{
 .img-fluid {
 width:250px;
 height:250px;
+margin:10px;
 }
+
+.green-box {
+    position:relative;
+    bottom:50px;
+    width:250px;
+    height:60px;
+    background-color:#4aaaa5;
+    color:white;
+    margin:10px;
+    
+    
+}
+
+.ML { 
+    color:white;
+    background:#4aaaa5;
+    font-family: 'georgia',Times,'Times New Roman',serif;
+    text-align:center;
+    padding:10px 0px;
+    margin:auto;
+    font-size:20pt;
+  
+    
+
+}
+
 
 .footer {
     position:fixed;
